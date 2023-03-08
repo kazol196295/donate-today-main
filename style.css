@@ -1,0 +1,173 @@
+#donation {
+    font-size: 90px;
+    color: red;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.div1 {
+
+    text-align: center;
+    background-image: url("images/donation9.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+
+
+}
+
+#donate {
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    size: 3vb;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#donate_today {
+    font-size: 90px;
+    color: red;
+    text-align: center;
+}
+
+#lala {
+    font-weight: bolder;
+    font-size: 190px;
+    color: red;
+}
+
+#sylhet {
+    color: black;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#second_part {
+    text-align: center;
+}
+
+.amount_button {
+    margin: 2%;
+    background-color: aquamarine;
+    padding: 3% 3%;
+    font-size: 40px;
+    border: radius 5px;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    -ms-border-radius: 5;
+    -o-border-radius: 5;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button_style {
+    border: 3px solid rgb(235, 5, 5);
+    background-color: #FF5959;
+    color: rgb(253, 6, 6);
+}
+
+.amount_input {
+    size: 20rem;
+    width: 30vw;
+    height: 3.5vw;
+    text-decoration: none;
+}
+
+input::placeholder {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+.middle_subtitle {
+
+    font-size: 1.8vw;
+    color: orange;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.last_banner {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    font-size: 1.5vw;
+    background-position: left;
+    display: flex;
+}
+
+.amount_button:hover {
+    transform: scale(1.5, 1.5);
+    transition: .2s;
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+img:hover {
+    transform: scale(1.5, 1.5);
+    transition: 1s transform;
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    -webkit-transition: 1s transform;
+    -moz-transition: 1s transform;
+    -ms-transition: 1s transform;
+    -o-transition: 1s transform;
+}
+
+.shadow {
+
+    box-shadow: 10px 10px 10px gray;
+    width: 45%;
+    margin: 3%;
+    padding: 3%;
+    border-top: 5px solid orangered;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.box {
+    width: 20%;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
